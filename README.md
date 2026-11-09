@@ -1,4 +1,4 @@
-# gammaflip-io
+# GammaFlip.io
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,139 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-gammaflip-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://gammaflip.io/
+GammaFlip.io provides live gamma exposure (GEX) and gamma flip detection charts for cryptocurrency markets (BTC, ETH, SOL, XRP, HYPE) and US equity markets (indices, ETFs, mega‑cap stocks). It offers real‑time data, historical replay, alerts, and API access for traders, with subscription plans starting at $39 per month.
+
+**Areas:** Company · Finance · Crypto · MarketData · Trading
+
+## GammaFlip.io on APIs.io
+
+Everything profiled for GammaFlip.io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/gammaflip-io/](https://apis.io/providers/gammaflip-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [GammaFlip.io Data API](https://apis.io/apis/gammaflip-io/gammaflip-io-data-api/) — The Data API from GammaFlip.io — 3 operation(s) for data.
+- [GammaFlip.io Discovery API](https://apis.io/apis/gammaflip-io/gammaflip-io-discovery-api/) — The Discovery API from GammaFlip.io — 4 operation(s) for discovery.
+- [GammaFlip.io History API](https://apis.io/apis/gammaflip-io/gammaflip-io-history-api/) — The History API from GammaFlip.io — 6 operation(s) for history.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Gammaflip Io Agentic Access](https://apis.io/agentic-access/gammaflip-io/gammaflip-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [DataMeta](https://apis.io/schemas/gammaflip-io/gammaflip-io-data-meta/)
+- [HistoryCoverageRow](https://apis.io/schemas/gammaflip-io/gammaflip-io-history-coverage-row/)
+- [HistoryLevelsRow](https://apis.io/schemas/gammaflip-io/gammaflip-io-history-levels-row/)
+- [HistoryMeta](https://apis.io/schemas/gammaflip-io/gammaflip-io-history-meta/)
+- [HistorySnapshot](https://apis.io/schemas/gammaflip-io/gammaflip-io-history-snapshot/)
+- [Levels](https://apis.io/schemas/gammaflip-io/gammaflip-io-levels/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Gammaflip Io Context](https://apis.io/jsonld/gammaflip-io/gammaflip-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [GammaFlip.io API Rules](https://apis.io/rules/gammaflip-io/gammaflip-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Gammaflip Io Authentication](https://apis.io/security/gammaflip-io/gammaflip-io-authentication/)
+- [Gammaflip Io Domain Security](https://apis.io/security/gammaflip-io/gammaflip-io-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Gammaflip Io Plans Pricing](https://apis.io/plans/gammaflip-io/gammaflip-io-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Gammaflip Io Rate Limits](https://apis.io/rate-limits/gammaflip-io/gammaflip-io-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://gammaflip.io/)
+- [Documentation](https://docs.gammaflip.io/)
+- [Getting started](https://docs.gammaflip.io/quickstart)
+- [API reference](https://docs.gammaflip.io/api-reference/exchanges)
+- [Pricing](https://gammaflip.io/pricing)
+- [Support](https://gammaflip.io/support)
+- [Changelog](https://gammaflip.io/whats-new)
+- [Blog](https://gammaflip.io/blog/)
+- [Terms of service](https://gammaflip.io/terms)
+- [Privacy policy](https://gammaflip.io/privacy)
+
+## API Evangelist rating
+
+**Kin Score 60.6** — strong · rubric 0.27.0 · scored 2026-11-09
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 64.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 34.7 |
+| Developer ergonomics | 54.0 |
+| Access clarity | 60.0 |
+
+**Agent readiness 49.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.7** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/gammaflip-io/](https://apis.io/providers/gammaflip-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for GammaFlip.io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/gammaflip-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
